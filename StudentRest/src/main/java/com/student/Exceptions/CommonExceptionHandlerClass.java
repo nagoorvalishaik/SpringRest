@@ -11,7 +11,7 @@ public class CommonExceptionHandlerClass {
 	
 
 	@ExceptionHandler
-	public ResponseEntity<ErrorTemplate> handlerForBalanceException(InvalidAgeException exp)
+	public ResponseEntity<ErrorTemplate> handlerForInvalidAgeException(InvalidAgeException exp)
 	{
 		ErrorTemplate template = new ErrorTemplate();
 		
